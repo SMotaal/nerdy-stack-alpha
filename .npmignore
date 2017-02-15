@@ -1,0 +1,11 @@
+# ignore all files in module directory
+client/
+server/
+
+# ignore module directory
+/client
+/server
+
+# ignore extranous directory and files
+**/[*]/
+**/[trash]

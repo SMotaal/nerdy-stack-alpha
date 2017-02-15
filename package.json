@@ -1,0 +1,31 @@
+{
+  "name": "nerdy-stack",
+  "version": "1.0.0-Alpha.1",
+  "author": "Saleh A Motaal <saleh@grasppe.com>",
+  "description": "A Node.js full-stack for prototyping, developing and deploying web and native applications using Web Components and GraphQL by thenerdyguy",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "client": "client",
+    "server": "server"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Web Components",
+    "GraphQL",
+    "RxJS",
+    "TypeScript",
+    "Polymer",
+    "Apollo",
+    "Electron",
+    "WebPack",
+    "daflair",
+    "thenerdyguy"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
