@@ -1,0 +1,25 @@
+{
+  "name": "nerdy-stack-client",
+  "version": "1.0.0-Alpha.1",
+  "author": "Saleh A Motaal <saleh@grasppe.com>",
+  "description": "Back-end client module of NerdyStack by thenerdyguy",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "config": {
+    "port": 3000
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "GraphQL",
+    "TypeScript",
+    "Apollo",
+    "daflair",
+    "thenerdyguy"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
