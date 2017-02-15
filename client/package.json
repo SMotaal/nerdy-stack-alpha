@@ -5,11 +5,12 @@
   "description": "Front-end client module of NerdyStack by thenerdyguy",
   "license": "MIT",
   "private": true,
-  "main": "index.js",
+  "main": "index.ts",
   "config": {
     "port": 8080
   },
   "scripts": {
+    "start": "webpack-dev-server --watch --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,7 +25,11 @@
     "thenerdyguy"
   ],
   "dependencies": {
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "ts-loader": "^2.0.0",
+    "webpack": "^2.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack-dev-server": "^2.3.0"
+  }
 }

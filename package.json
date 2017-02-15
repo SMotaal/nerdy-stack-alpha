@@ -11,7 +11,8 @@
     "server": "server"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client; npm start"
   },
   "keywords": [
     "Node",
@@ -26,6 +27,11 @@
     "daflair",
     "thenerdyguy"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "ts-node": "^2.1.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.6"
+  },
   "devDependencies": {}
 }

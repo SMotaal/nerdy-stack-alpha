@@ -6,10 +6,6 @@ bower_components
 # Optional npm cache directory
 .npm
 
-# [Extranous] Directories (thenerdyguy)
-**/[*]/
-**/[trash]
-
 # Logs
 logs
 *.log
@@ -40,3 +36,4 @@ build/Release
 
 # Optional REPL history
 .node_repl_history
+[trash]
