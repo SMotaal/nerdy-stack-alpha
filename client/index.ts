@@ -1,1 +1,1 @@
-console.log('NerdyStackClient: Ellow!');
+import './components/hello-world.html';
